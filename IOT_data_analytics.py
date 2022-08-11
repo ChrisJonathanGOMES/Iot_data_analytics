@@ -7,11 +7,7 @@ import board
 import adafruit_dht
 import psutil
 import pandas as pd
-# importer les librairies nécessaires pour utiliser Dash
-import plotly.express as px  # (version 4.7.0 or higher)
-import plotly.graph_objects as go
-from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0.0 or higher)
-import webbrowser
+
 
 #importer la librairie qui nous permettra de lancer le dashboard au lancement du programme
 import webbrowser
