@@ -8,10 +8,6 @@ import adafruit_dht
 import psutil
 import pandas as pd
 
-
-#importer la librairie qui nous permettra de lancer le dashboard au lancement du programme
-import webbrowser
-
 #commecer l'extraction des données
 
     #si les broches sont en cours d'utilisation ,arrêter le processus
